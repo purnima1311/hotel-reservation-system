@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/purnima1311/hotel-reservation-system/static/css/main.76bd1922.css",
-    "main.js": "/purnima1311/hotel-reservation-system/static/js/main.4f6e4d6a.js",
-    "index.html": "/purnima1311/hotel-reservation-system/index.html",
-    "main.76bd1922.css.map": "/purnima1311/hotel-reservation-system/static/css/main.76bd1922.css.map",
-    "main.4f6e4d6a.js.map": "/purnima1311/hotel-reservation-system/static/js/main.4f6e4d6a.js.map"
+    "main.css": "/hotel-reservation-system/static/css/main.76bd1922.css",
+    "main.js": "/hotel-reservation-system/static/js/main.4f6e4d6a.js",
+    "index.html": "/hotel-reservation-system/index.html",
+    "main.76bd1922.css.map": "/hotel-reservation-system/static/css/main.76bd1922.css.map",
+    "main.4f6e4d6a.js.map": "/hotel-reservation-system/static/js/main.4f6e4d6a.js.map"
   },
   "entrypoints": [
     "static/css/main.76bd1922.css",
