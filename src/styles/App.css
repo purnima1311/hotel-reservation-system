@@ -1,0 +1,130 @@
+/* General Styles */
+.app {
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container with Border */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  border: 4px solid black; /* Black border */
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Room Grid Styles */
+.room-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.floor {
+  margin-bottom: 20px;
+}
+
+.rooms {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.room {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Room Colors */
+.room.available {
+  background-color: #d4edda; /* Green for available rooms */
+  color: #155724;
+  border: 2px solid #c3e6cb;
+}
+
+.room.booked {
+  background-color: #f8d7da; /* Red for booked rooms */
+  color: #721c24;
+  border: 2px solid #f5c6cb;
+}
+
+.room:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Controls Styles */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745; /* Green button */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Booking Form Styles */
+.booking-form {
+  margin-bottom: 20px;
+}
+
+input[type='number'] {
+  padding: 10px;
+  width: 60px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+input[type='number']:focus {
+  outline: none;
+  border-color: black; /* Matches border style */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
