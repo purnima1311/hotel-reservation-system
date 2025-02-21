@@ -1,6 +1,5 @@
 # Hotel Room Reservation System
 
-# hotel-reservation-system
 # Getting Started with Create React App
 
 The **Hotel Room Reservation System** is a web-based application that allows users to book hotel rooms dynamically while visualizing the status of available and booked rooms. It is designed to optimize room allocation based on travel time and floor proximity, ensuring a seamless and efficient booking experience.
